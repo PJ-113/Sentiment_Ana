@@ -1,0 +1,64 @@
+# --------------------------
+# Python
+# --------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+
+# --------------------------
+# Virtual environment
+# --------------------------
+.venv/
+env/
+venv/
+
+# --------------------------
+# VSCode / IDE
+# --------------------------
+.vscode/
+.idea/
+
+# --------------------------
+# Model checkpoints & weights
+# --------------------------
+xlmr-finetuned-course-sentiment/
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+*.tar.gz
+
+# --------------------------
+# HuggingFace / datasets cache
+# --------------------------
+cache/
+datasets/
+transformers_cache/
+torch_cache/
+
+# --------------------------
+# Logs
+# --------------------------
+*.log
+logs/
+wandb/
+runs/
+
+# --------------------------
+# Jupyter / Notebook
+# --------------------------
+.ipynb_checkpoints/
+
+# --------------------------
+# Keep only selected files
+# --------------------------
+!accuracy_f1_per_epoch.png
+!metrics_table.png
+!table_metrics.py
+
